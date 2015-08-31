@@ -9,4 +9,4 @@ Available configurations
 
 To start the configuration, you just need to use docker compose:
 
-`docker-compose -f <config-file up>`
+`docker-compose -f <config-file> up`
