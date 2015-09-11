@@ -20,29 +20,37 @@ Getting Started
   docker-compose & docker. A working docker-compose is the real
   requirement here.
 
-2. Create the Docker Machine if you are on OS X or Windows: \
+2. Create the Docker Machine if you are on OS X or Windows: 
+
     $ docker-machine create --driver virtualbox mymachine
 
 3. Tell your Docker client to talk to that Docker Machine (not sure
-    about Windows syntax): \
+    about Windows syntax): 
+
     $ eval $(docker-machine env mymachine)
 
 4. Change your working directory to one of the subdirectories
-   contained herein. \
-   $ cd cjoc-basic
+   contained herein. 
+
+    $ cd cjoc-basic
 
 5. Start the configuration. This will download the needed images and
-   start them up in the background. \
-   $ docker-compose -d up
+   start them up in the background. 
 
-6. You can find the Docker Machine address: \
-   $ docker-machine ip mymachine
+    $ docker-compose -d up
+
+6. You can find the Docker Machine address: 
+
+    $ docker-machine ip mymachine
 
 6. Look at the logs of the running containers.
-  $ docker-compose logs
+
+    $ docker-compose logs
 
 7. Stop the configuration
-  $ docker-compose stop
+
+    $ docker-compose stop
 
 8. Learn more
- $ docker-compose -h
+
+    $ docker-compose -h
