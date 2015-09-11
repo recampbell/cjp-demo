@@ -1,4 +1,5 @@
 
+
 CJP Local QA Lab
 ----
 
@@ -45,5 +46,3 @@ Getting Started
 
 8. Learn more
  $ docker-compose -h
-
-
